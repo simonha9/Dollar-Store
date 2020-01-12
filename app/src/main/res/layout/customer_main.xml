@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@color/colorBackground"
+  android:columnCount="2"
+  android:orientation="vertical"
+  android:rowCount="4">
+
+  <include
+    layout="@layout/exit_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_columnSpan="2"
+    android:layout_rowSpan="0" />
+
+  <TextView
+    android:id="@+id/txtCustomerWelcome"
+    style="@style/layoutTitle"
+    android:layout_columnSpan="2"
+    android:layout_gravity="center_horizontal"
+    android:text="@string/customerTitle" />
+
+  <Button
+    android:id="@+id/buttonList"
+    android:layout_width="160dp"
+    android:layout_height="100dp"
+    android:layout_marginStart="30dp"
+    android:layout_marginTop="20dp"
+    android:background="@color/colorAccent"
+    android:text="@string/customerList"
+    android:textAlignment="center"
+    android:textColor="@color/colorWhite"
+    android:textSize="17sp" />
+
+  <Button
+    android:id="@+id/buttonAdd"
+    android:layout_width="160dp"
+    android:layout_height="100dp"
+    android:layout_marginStart="30dp"
+    android:layout_marginTop="20dp"
+    android:background="@color/colorAccent"
+    android:text="@string/customerAdd"
+    android:textAlignment="center"
+    android:textColor="@color/colorWhite"
+    android:textSize="17sp" />
+
+  <Button
+    android:id="@+id/buttonRestore"
+    android:layout_width="160dp"
+    android:layout_height="100dp"
+    android:layout_marginStart="30dp"
+    android:layout_marginTop="20dp"
+    android:background="@color/colorAccent"
+    android:text="@string/customerRestore"
+    android:textAlignment="center"
+    android:textColor="@color/colorWhite"
+    android:textSize="17sp" />
+
+  <Button
+    android:id="@+id/buttonCheckout"
+    android:layout_width="160dp"
+    android:layout_height="100dp"
+    android:layout_marginStart="30dp"
+    android:layout_marginTop="30dp"
+    android:background="@color/colorAccent"
+    android:text="@string/customerCheckout"
+    android:textAlignment="center"
+    android:textColor="@color/colorWhite"
+    android:textSize="17sp" />
+
+  <Button
+    android:id="@+id/buttonRemove"
+    android:layout_width="160dp"
+    android:layout_height="100dp"
+    android:layout_marginStart="30dp"
+    android:layout_marginTop="13dp"
+    android:background="@color/colorAccent"
+    android:text="@string/customerRemove"
+    android:textAlignment="center"
+    android:textColor="@color/colorWhite"
+    android:textSize="17sp" />
+
+  <Button
+    android:id="@+id/buttonPrice"
+    android:layout_width="160dp"
+    android:layout_height="100dp"
+    android:layout_marginStart="30dp"
+    android:layout_marginTop="20dp"
+    android:background="@color/colorAccent"
+    android:text="@string/customerPrice"
+    android:textAlignment="center"
+    android:textColor="@color/colorWhite"
+    android:textSize="17sp" />
+
+</GridLayout>

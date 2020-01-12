@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@color/colorBackground"
+  android:orientation="vertical">
+
+  <include layout="@layout/exit_button" />
+
+  <TextView
+    android:id="@+id/txtCustomerWelcome"
+    style="@style/layoutTitle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/customerTitle" />
+
+  <RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true">
+
+    <Button
+      android:id="@+id/btnRegisterAcct"
+      style="@style/buttonStyle"
+      android:text="@string/btnRegisterAccount" />
+
+    <Button
+      android:id="@+id/btnShopWoAcct"
+      style="@style/buttonStyle"
+      android:layout_below="@id/btnRegisterAcct"
+      android:text="@string/btnShopWoAccount" />
+
+    <Button
+      android:id="@+id/btnChooseAcct"
+      style="@style/buttonStyle"
+      android:layout_below="@+id/btnShopWoAcct"
+      android:text="@string/btnExistingAccount" />
+
+    <Button
+      android:id="@+id/btnDeactivateAcct"
+      style="@style/buttonStyle"
+      android:layout_below="@id/btnChooseAcct"
+      android:text="@string/btnDeactivateAccount" />
+
+  </RelativeLayout>
+
+</RelativeLayout>

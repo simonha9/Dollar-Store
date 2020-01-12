@@ -1,0 +1,289 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:2:1-105:12
+INJECTED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:2:1-105:12
+INJECTED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:2:1-105:12
+INJECTED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:2:1-105:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\d74b5b498b35fd5cb32d0a6997bb1d3d\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\d934be3c652b5ff5c18e2d68c8236453\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\c63ceca946e9bc27525371878741042e\appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\2dd52bdeda96a748df5d7e83cece6c38\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\863b030a4ef24c5e89f12cd832de155e\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\7e3b4c2f83e256517b094f844ce7d668\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\a45f51b2867c115d86c8bdb1d487c72c\activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\bfb36a8a02a6b71b49ca7ec649145b26\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\ed5a9132108c5b2ae9625fd37b95cb34\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\2fe66d8bec3c90b690bace4d7b7b6157\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\f01b27bb220ecb79298884ef36a7a2fb\core-1.1.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\01d333055a983e736e0a5fac950ffa8f\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\f3128affa7000c088d176285d7f5681f\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\34fb4b53ebbbc0d42cf00f739d5b7918\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\534dfe358287b68b5ba1038d10b7afc0\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\69ba81d17fd1c26c75281615add0554c\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\699bc310780b1730bce8fe271ffeca8b\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\df65787e67fe4b4bc0635deed9695797\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\a1f5477cd6fd5fad9baa3e263bec7d60\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\60b50828def4ba3859898ffb4c971c21\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:2:1-105:12
+INJECTED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:2:1-105:12
+INJECTED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:2:1-105:12
+	package
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:4:3-37
+		INJECTED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:2:1-105:12
+		INJECTED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:3:3-49
+	android:versionCode
+		INJECTED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:2:1-105:12
+		INJECTED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:6:3-103:17
+MERGED from [androidx.core:core:1.1.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\f01b27bb220ecb79298884ef36a7a2fb\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\f01b27bb220ecb79298884ef36a7a2fb\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\f3128affa7000c088d176285d7f5681f\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\f3128affa7000c088d176285d7f5681f\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\f01b27bb220ecb79298884ef36a7a2fb\core-1.1.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:10:5-31
+	android:label
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:9:5-41
+	tools:ignore
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:12:5-44
+	android:icon
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:8:5-39
+	android:allowBackup
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:7:5-31
+	android:theme
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:11:5-36
+activity#com.b07.ui.db.DbActivity
+ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:15:5-21:16
+	android:name
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:15:15-54
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:16:7-20:23
+action#android.intent.action.MAIN
+ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:17:9-61
+	android:name
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:17:17-58
+category#android.intent.category.LAUNCHER
+ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:19:9-69
+	android:name
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:19:19-66
+activity#com.b07.ui.login.LoginActivity
+ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:24:5-63
+	android:name
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:24:15-60
+activity#com.b07.ui.login.LogoutActivity
+ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:25:5-64
+	android:name
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:25:15-61
+activity#com.b07.ui.admin.AdminMainActivity
+ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:28:5-67
+	android:name
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:28:15-64
+activity#com.b07.ui.admin.SalesLogActivity
+ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:29:5-31:73
+	android:parentActivityName
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:31:7-70
+	android:name
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:30:7-55
+activity#com.b07.ui.admin.SalesLogDetailActivity
+ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:32:5-34:72
+	android:parentActivityName
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:34:7-69
+	android:name
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:33:7-61
+activity#com.b07.ui.admin.SalesLogTotalActivity
+ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:35:5-37:72
+	android:parentActivityName
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:37:7-69
+	android:name
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:36:7-60
+activity#com.b07.ui.admin.AdminPromoteActivity
+ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:38:5-40:73
+	android:parentActivityName
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:40:7-70
+	android:name
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:39:7-59
+activity#com.b07.ui.admin.AdminDatabaseActivity
+ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:41:5-43:73
+	android:parentActivityName
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:43:7-70
+	android:name
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:42:7-60
+activity#com.b07.ui.admin.AdminViewAcctsActivity
+ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:44:5-46:73
+	android:parentActivityName
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:46:7-70
+	android:name
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:45:7-61
+activity#com.b07.ui.admin.AdminListAcctsActivity
+ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:47:5-49:78
+	android:parentActivityName
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:49:7-75
+	android:name
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:48:7-61
+activity#com.b07.ui.employee.EmployeeActivity
+ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:52:5-69
+	android:name
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:52:15-66
+activity#com.b07.ui.employee.EmpAuthActivity
+ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:53:5-55:75
+	android:parentActivityName
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:55:7-72
+	android:name
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:54:7-57
+activity#com.b07.ui.employee.EmpNewAccountActivity
+ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:56:5-58:75
+	android:parentActivityName
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:58:7-72
+	android:name
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:57:7-63
+activity#com.b07.ui.employee.EmpRestockActivity
+ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:59:5-61:75
+	android:parentActivityName
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:61:7-72
+	android:name
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:60:7-60
+activity#com.b07.ui.employee.AccountActivity
+ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:62:5-64:75
+	android:parentActivityName
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:64:7-72
+	android:name
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:63:7-57
+activity#com.b07.ui.employee.EmpNewUserActivity
+ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:65:5-67:75
+	android:parentActivityName
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:67:7-72
+	android:name
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:66:7-60
+activity#com.b07.ui.customer.CustomerAcctMenuActivity
+ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:70:5-77
+	android:name
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:70:15-74
+activity#com.b07.ui.customer.CustomerMainActivity
+ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:71:5-73
+	android:name
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:71:15-70
+activity#com.b07.ui.customer.CustomerNewAccount
+ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:72:5-74:83
+	android:parentActivityName
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:74:7-80
+	android:name
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:73:7-60
+activity#com.b07.ui.customer.CustomerExistingAcctActivity
+ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:75:5-77:83
+	android:parentActivityName
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:77:7-80
+	android:name
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:76:7-70
+activity#com.b07.ui.customer.CustomerRestoreActivity
+ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:78:5-80:79
+	android:parentActivityName
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:80:7-76
+	android:name
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:79:7-65
+activity#com.b07.ui.customer.CustomerDeactivateActivity
+ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:81:5-83:79
+	android:parentActivityName
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:83:7-76
+	android:name
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:82:7-68
+activity#com.b07.ui.customer.CustomerListItemActivity
+ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:84:5-86:79
+	android:parentActivityName
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:86:7-76
+	android:name
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:85:7-66
+activity#com.b07.ui.customer.CustomerCheckoutActivity
+ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:87:5-89:79
+	android:parentActivityName
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:89:7-76
+	android:name
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:88:7-66
+activity#com.b07.ui.customer.CustomerPriceActivity
+ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:90:5-92:79
+	android:parentActivityName
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:92:7-76
+	android:name
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:91:7-63
+activity#com.b07.ui.customer.CustomerAccountActivity
+ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:93:5-95:79
+	android:parentActivityName
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:95:7-76
+	android:name
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:94:7-65
+activity#com.b07.ui.customer.CustomerRemoveActivity
+ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:96:5-98:79
+	android:parentActivityName
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:98:7-76
+	android:name
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:97:7-64
+activity#com.b07.ui.customer.CustomerAddActivity
+ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:99:5-101:79
+	android:parentActivityName
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:101:7-76
+	android:name
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:100:7-61
+uses-sdk
+INJECTED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml
+INJECTED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\d74b5b498b35fd5cb32d0a6997bb1d3d\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\d74b5b498b35fd5cb32d0a6997bb1d3d\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\d934be3c652b5ff5c18e2d68c8236453\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\d934be3c652b5ff5c18e2d68c8236453\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\c63ceca946e9bc27525371878741042e\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\c63ceca946e9bc27525371878741042e\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\2dd52bdeda96a748df5d7e83cece6c38\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\2dd52bdeda96a748df5d7e83cece6c38\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\863b030a4ef24c5e89f12cd832de155e\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\863b030a4ef24c5e89f12cd832de155e\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\7e3b4c2f83e256517b094f844ce7d668\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\7e3b4c2f83e256517b094f844ce7d668\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\a45f51b2867c115d86c8bdb1d487c72c\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\a45f51b2867c115d86c8bdb1d487c72c\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\bfb36a8a02a6b71b49ca7ec649145b26\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\bfb36a8a02a6b71b49ca7ec649145b26\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\ed5a9132108c5b2ae9625fd37b95cb34\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\ed5a9132108c5b2ae9625fd37b95cb34\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\2fe66d8bec3c90b690bace4d7b7b6157\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\2fe66d8bec3c90b690bace4d7b7b6157\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\f01b27bb220ecb79298884ef36a7a2fb\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\f01b27bb220ecb79298884ef36a7a2fb\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\01d333055a983e736e0a5fac950ffa8f\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\01d333055a983e736e0a5fac950ffa8f\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\f3128affa7000c088d176285d7f5681f\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\f3128affa7000c088d176285d7f5681f\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\34fb4b53ebbbc0d42cf00f739d5b7918\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\34fb4b53ebbbc0d42cf00f739d5b7918\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\534dfe358287b68b5ba1038d10b7afc0\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\534dfe358287b68b5ba1038d10b7afc0\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\69ba81d17fd1c26c75281615add0554c\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\69ba81d17fd1c26c75281615add0554c\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\699bc310780b1730bce8fe271ffeca8b\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\699bc310780b1730bce8fe271ffeca8b\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\df65787e67fe4b4bc0635deed9695797\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\df65787e67fe4b4bc0635deed9695797\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\a1f5477cd6fd5fad9baa3e263bec7d60\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\a1f5477cd6fd5fad9baa3e263bec7d60\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\60b50828def4ba3859898ffb4c971c21\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\60b50828def4ba3859898ffb4c971c21\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+INJECTED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml
+INJECTED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml
+		ADDED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml

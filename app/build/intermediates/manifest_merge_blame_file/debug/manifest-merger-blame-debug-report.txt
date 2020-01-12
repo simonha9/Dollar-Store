@@ -1,0 +1,205 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.b07.salesapplication"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="25"
+8-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:6:3-103:17
+12        android:allowBackup="true"
+12-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:7:5-31
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.1.0] C:\Users\Simon\.gradle\caches\transforms-2\files-2.1\f01b27bb220ecb79298884ef36a7a2fb\core-1.1.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:8:5-39
+16        android:label="Shopping Application"
+16-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:9:5-41
+17        android:supportsRtl="true"
+17-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:10:5-31
+18        android:testOnly="true"
+19        android:theme="@style/AppTheme" >
+19-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:11:5-36
+20
+21        <!-- Initialize Activities -->
+22        <activity android:name="com.b07.ui.db.DbActivity" >
+22-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:15:5-21:16
+22-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:15:15-54
+23            <intent-filter>
+23-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:16:7-20:23
+24                <action android:name="android.intent.action.MAIN" />
+24-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:17:9-61
+24-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:17:17-58
+25
+26                <category android:name="android.intent.category.LAUNCHER" />
+26-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:19:9-69
+26-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:19:19-66
+27            </intent-filter>
+28        </activity>
+29
+30        <!-- Login Activities -->
+31        <activity android:name="com.b07.ui.login.LoginActivity" />
+31-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:24:5-63
+31-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:24:15-60
+32        <activity android:name="com.b07.ui.login.LogoutActivity" />
+32-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:25:5-64
+32-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:25:15-61
+33
+34        <!-- Admin Activities -->
+35        <activity android:name="com.b07.ui.admin.AdminMainActivity" />
+35-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:28:5-67
+35-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:28:15-64
+36        <activity
+36-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:29:5-31:73
+37            android:name="com.b07.ui.admin.SalesLogActivity"
+37-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:30:7-55
+38            android:parentActivityName="com.b07.ui.admin.AdminMainActivity" />
+38-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:31:7-70
+39        <activity
+39-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:32:5-34:72
+40            android:name="com.b07.ui.admin.SalesLogDetailActivity"
+40-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:33:7-61
+41            android:parentActivityName="com.b07.ui.admin.SalesLogActivity" />
+41-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:34:7-69
+42        <activity
+42-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:35:5-37:72
+43            android:name="com.b07.ui.admin.SalesLogTotalActivity"
+43-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:36:7-60
+44            android:parentActivityName="com.b07.ui.admin.SalesLogActivity" />
+44-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:37:7-69
+45        <activity
+45-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:38:5-40:73
+46            android:name="com.b07.ui.admin.AdminPromoteActivity"
+46-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:39:7-59
+47            android:parentActivityName="com.b07.ui.admin.AdminMainActivity" />
+47-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:40:7-70
+48        <activity
+48-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:41:5-43:73
+49            android:name="com.b07.ui.admin.AdminDatabaseActivity"
+49-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:42:7-60
+50            android:parentActivityName="com.b07.ui.admin.AdminMainActivity" />
+50-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:43:7-70
+51        <activity
+51-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:44:5-46:73
+52            android:name="com.b07.ui.admin.AdminViewAcctsActivity"
+52-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:45:7-61
+53            android:parentActivityName="com.b07.ui.admin.AdminMainActivity" />
+53-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:46:7-70
+54        <activity
+54-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:47:5-49:78
+55            android:name="com.b07.ui.admin.AdminListAcctsActivity"
+55-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:48:7-61
+56            android:parentActivityName="com.b07.ui.admin.AdminViewAcctsActivity" />
+56-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:49:7-75
+57
+58        <!-- Employee Activities -->
+59        <activity android:name="com.b07.ui.employee.EmployeeActivity" />
+59-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:52:5-69
+59-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:52:15-66
+60        <activity
+60-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:53:5-55:75
+61            android:name="com.b07.ui.employee.EmpAuthActivity"
+61-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:54:7-57
+62            android:parentActivityName="com.b07.ui.employee.EmployeeActivity" />
+62-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:55:7-72
+63        <activity
+63-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:56:5-58:75
+64            android:name="com.b07.ui.employee.EmpNewAccountActivity"
+64-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:57:7-63
+65            android:parentActivityName="com.b07.ui.employee.EmployeeActivity" />
+65-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:58:7-72
+66        <activity
+66-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:59:5-61:75
+67            android:name="com.b07.ui.employee.EmpRestockActivity"
+67-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:60:7-60
+68            android:parentActivityName="com.b07.ui.employee.EmployeeActivity" />
+68-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:61:7-72
+69        <activity
+69-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:62:5-64:75
+70            android:name="com.b07.ui.employee.AccountActivity"
+70-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:63:7-57
+71            android:parentActivityName="com.b07.ui.employee.EmployeeActivity" />
+71-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:64:7-72
+72        <activity
+72-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:65:5-67:75
+73            android:name="com.b07.ui.employee.EmpNewUserActivity"
+73-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:66:7-60
+74            android:parentActivityName="com.b07.ui.employee.EmployeeActivity" />
+74-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:67:7-72
+75
+76        <!-- Customer Activities -->
+77        <activity android:name="com.b07.ui.customer.CustomerAcctMenuActivity" />
+77-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:70:5-77
+77-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:70:15-74
+78        <activity android:name="com.b07.ui.customer.CustomerMainActivity" />
+78-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:71:5-73
+78-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:71:15-70
+79        <activity
+79-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:72:5-74:83
+80            android:name="com.b07.ui.customer.CustomerNewAccount"
+80-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:73:7-60
+81            android:parentActivityName="com.b07.ui.customer.CustomerAcctMenuActivity" />
+81-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:74:7-80
+82        <activity
+82-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:75:5-77:83
+83            android:name="com.b07.ui.customer.CustomerExistingAcctActivity"
+83-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:76:7-70
+84            android:parentActivityName="com.b07.ui.customer.CustomerAcctMenuActivity" />
+84-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:77:7-80
+85        <activity
+85-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:78:5-80:79
+86            android:name="com.b07.ui.customer.CustomerRestoreActivity"
+86-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:79:7-65
+87            android:parentActivityName="com.b07.ui.customer.CustomerMainActivity" />
+87-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:80:7-76
+88        <activity
+88-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:81:5-83:79
+89            android:name="com.b07.ui.customer.CustomerDeactivateActivity"
+89-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:82:7-68
+90            android:parentActivityName="com.b07.ui.customer.CustomerMainActivity" />
+90-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:83:7-76
+91        <activity
+91-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:84:5-86:79
+92            android:name="com.b07.ui.customer.CustomerListItemActivity"
+92-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:85:7-66
+93            android:parentActivityName="com.b07.ui.customer.CustomerMainActivity" />
+93-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:86:7-76
+94        <activity
+94-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:87:5-89:79
+95            android:name="com.b07.ui.customer.CustomerCheckoutActivity"
+95-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:88:7-66
+96            android:parentActivityName="com.b07.ui.customer.CustomerMainActivity" />
+96-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:89:7-76
+97        <activity
+97-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:90:5-92:79
+98            android:name="com.b07.ui.customer.CustomerPriceActivity"
+98-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:91:7-63
+99            android:parentActivityName="com.b07.ui.customer.CustomerMainActivity" />
+99-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:92:7-76
+100        <activity
+100-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:93:5-95:79
+101            android:name="com.b07.ui.customer.CustomerAccountActivity"
+101-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:94:7-65
+102            android:parentActivityName="com.b07.ui.customer.CustomerMainActivity" />
+102-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:95:7-76
+103        <activity
+103-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:96:5-98:79
+104            android:name="com.b07.ui.customer.CustomerRemoveActivity"
+104-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:97:7-64
+105            android:parentActivityName="com.b07.ui.customer.CustomerMainActivity" />
+105-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:98:7-76
+106        <activity
+106-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:99:5-101:79
+107            android:name="com.b07.ui.customer.CustomerAddActivity"
+107-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:100:7-61
+108            android:parentActivityName="com.b07.ui.customer.CustomerMainActivity" />
+108-->D:\Fall_2019\CSCB07\E1\hasimon\group_proj\project_phase3\SalesApplication\app\src\main\AndroidManifest.xml:101:7-76
+109    </application>
+110
+111</manifest>

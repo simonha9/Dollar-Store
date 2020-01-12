@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@color/colorBackground"
+  android:orientation="vertical">
+
+  <include layout="@layout/exit_button" />
+
+  <TextView
+    android:id="@+id/txtEmployeeWelcome"
+    style="@style/layoutTitle"
+    android:text="@string/empTitle" />
+
+  <RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true">
+
+    <Button
+      android:id="@+id/authEmpButton"
+      style="@style/buttonStyle"
+      android:text="@string/empAuth" />
+
+    <Button
+      android:id="@+id/newUserButton"
+      style="@style/buttonStyle"
+      android:layout_below="@id/authEmpButton"
+      android:text="@string/empUser" />
+
+    <Button
+      android:id="@+id/newAccButton"
+      style="@style/buttonStyle"
+      android:layout_below="@+id/newUserButton"
+      android:text="@string/empAcc" />
+
+    <Button
+      android:id="@+id/newEmpButton"
+      style="@style/buttonStyle"
+      android:layout_below="@id/newAccButton"
+      android:text="@string/empEmp" />
+
+    <Button
+      android:id="@+id/restockInvButton"
+      style="@style/buttonStyle"
+      android:layout_below="@id/newEmpButton"
+      android:text="@string/empRestock" />
+
+  </RelativeLayout>
+
+</RelativeLayout>

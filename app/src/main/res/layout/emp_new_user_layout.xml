@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@color/colorBackground">
+
+  <TextView
+    android:id="@+id/newAccountTitle"
+    style="@style/layoutTitle"
+    android:text="@string/newUserTitle" />
+
+
+  <TextView
+    android:id="@+id/customerIdPrompt"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="100sp"
+    android:layout_marginTop="150sp"
+    android:background="@color/colorBackground"
+    android:fontFamily="sans-serif-condensed-medium"
+    android:text="@string/customerId"
+    android:textColor="@color/colorPrimary"
+    android:textSize="25sp" />
+
+  <EditText
+    android:id="@+id/customerId"
+    android:layout_width="200sp"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="100sp"
+    android:layout_marginTop="185sp"
+    android:background="@color/colorWhite"
+    android:imeOptions="actionDone"
+    android:inputType="number"
+    android:labelFor="@+id/user_id" />
+
+  <Button
+    android:id="@+id/enterButton"
+    android:layout_width="80sp"
+    android:layout_height="30sp"
+    android:layout_centerHorizontal="true"
+    android:layout_marginStart="100sp"
+    android:layout_marginTop="230sp"
+    android:background="@color/colorAccent"
+    android:radius="10sp"
+    android:text="@string/enter"
+    android:textAlignment="center"
+    android:textColor="@color/colorWhite"
+    android:textSize="15sp" />
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@color/colorBackground"
+  android:orientation="vertical">
+
+  <TextView
+    android:id="@+id/textTitle"
+    style="@style/layoutTitle"
+    android:text="@string/menuDatabase" />
+
+  <RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true">
+
+    <Button
+      android:id="@+id/buttonImport"
+      style="@style/buttonStyle"
+      android:text="@string/importDatabase" />
+
+    <Button
+      android:id="@+id/buttonExport"
+      style="@style/buttonStyle"
+      android:layout_below="@+id/buttonImport"
+      android:text="@string/exportDatabase" />
+
+  </RelativeLayout>
+
+</RelativeLayout>

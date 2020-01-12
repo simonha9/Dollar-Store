@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@color/colorBackground"
+  android:orientation="vertical">
+
+  <include layout="@layout/customer_item" />
+
+  <TextView
+    style="@style/layoutTitle"
+    android:text="@string/customerRemoveTitle" />
+
+  <TextView
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:layout_alignParentEnd="true"
+    android:layout_marginStart="50sp"
+    android:layout_marginTop="145sp"
+    android:layout_marginEnd="3dp"
+    android:background="@color/colorBackground"
+    android:fontFamily="sans-serif-condensed-medium"
+    android:text="@string/customerRemoveSelect"
+    android:textColor="@color/colorPrimary"
+    android:textSize="20sp" />
+
+  <TextView
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:layout_alignParentEnd="true"
+    android:layout_marginStart="50sp"
+    android:layout_marginTop="280sp"
+    android:layout_marginEnd="3dp"
+    android:background="@color/colorBackground"
+    android:fontFamily="sans-serif-condensed-medium"
+    android:text="@string/customerQuantity"
+    android:textColor="@color/colorPrimary"
+    android:textSize="20sp"
+    android:imeOptions="actionDone"/>
+
+
+</RelativeLayout>

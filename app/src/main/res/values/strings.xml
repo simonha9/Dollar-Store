@@ -1,0 +1,145 @@
+<resources>
+  <string name="appName">Shopping Application</string>
+  <string name="exit">"x"</string>
+
+  <string name="adminPromote">"Promote Employee"</string>
+  <string name="adminSales">"View sales record"</string>
+  <string name="adminTitle">Welcome, Admin!</string>
+
+  <string name="adminSalesLogTitle">Sales Log</string>
+  <string name="viewTotalSales">Details</string>
+  <string name="totalSalesBreakdown">Total Sales Breakdown</string>
+  <string name="detailedSalesLogTitle">Detailed Sale Info</string>
+  <string name="detailedItemizedBreakdown">Itemized Breakdown:</string>
+
+  <string name="viewAccounts">View Customer Accounts</string>
+
+  <string name="manageDatabase">Manage database</string>
+  <string name="menuDatabase">Database Menu:</string>
+  <string name="importDatabase">Import new database</string>
+  <string name="exportDatabase">Export current database</string>
+
+  <string name="promoteEmployee">Promote an Employee</string>
+  <string name="promoteSelect">Select an Employee:</string>
+  <string name="promoteConfirm">Promote</string>
+
+  <string name="customerTitle">Welcome, Customer!</string>
+  <string name="customerList">List current items in cart</string>
+  <string name="customerAdd">Add a quantity of an item</string>
+  <string name="customerPrice">Check total price of items</string>
+  <string name="customerRemove">Remove a quantity of an item</string>
+  <string name="customerRegister">Register for an account</string>
+  <string name="customerRestore">Restore shopping cart</string>
+  <string name="customerDeactivate">Deactivate account</string>
+  <string name="customerCheckout">Check out</string>
+
+
+  <string name="customerAddTitle">Add an Item</string>
+  <string name="customerAddSelect">Please select an item to add:</string>
+  <string name="customerQuantity">Enter Quantity:</string>
+  <string name="enter">Enter</string>
+
+  <string-array name="itemArray">
+    <item>Fishing Rod</item>
+    <item>Hockey Stick</item>
+    <item>Skates</item>
+    <item>Running Shoes</item>
+    <item>Protein Bar</item>
+  </string-array>
+  <string name="customerRemoveTitle">Remove an Item</string>
+  <string name="customerRemoveSelect">Please select and item to remove:</string>
+
+  <string name="customerAccountTitle">Make a new Account</string>
+  <string name="customerAccountName">Enter your name:</string>
+  <string name="customerAccountAge">Enter your age:</string>
+  <string name="customerAccountAddress">Enter your address:</string>
+  <string name="customerAccountPass">Enter your password:</string>
+
+  <string name="empTitle">Welcome, Employee!</string>
+  <string name="empAuth">Authenticate New Employee</string>
+  <string name="empUser">MAKE NEW USER</string>
+  <string name="empAcc">MAKE NEW ACCOUNT</string>
+  <string name="empEmp">MAKE NEW EMPLOYEE</string>
+  <string name="empRestock">RESTOCK INVENTORY</string>
+
+  <string name="loginText">Login</string>
+  <string name="loginAdminText">Admin Login</string>
+  <string name="idText">User Id</string>
+  <string name="passText">Password</string>
+
+  <string name="restockTitle">Restock Inventory</string>
+  <string name="restockSelect">Select an item:</string>
+  <string name="restockQuantity">Enter Quantity:</string>
+
+  <string name="invalidQuantityStock">Sorry, this quantity of the item is not in stock.
+    Click the screen to close popup.</string>
+  <string name="invalidQuantityCart">Sorry, this quantity of the item is not in your cart.
+    Click the screen to close popup.</string>
+
+  <string name="customerWaitMessage">Please click \'OK\' to navigate to employee login.
+  The employee will make a new account for you.</string>
+  <string name="ok">Ok</string>
+
+  <string name="existing_accounts">Existing Accounts</string>
+  <string name="customerPriceTitle">Total price of cart:</string>
+
+  <string name="customerPay">Pay</string>
+  <string name="customerContinue">Do you wish to continue shopping?</string>
+  <string name="customerYes">Yes</string>
+  <string name="customerNo">No</string>
+
+  <string name="customerListItems">Items in cart:</string>
+
+  <string name="customerEmptyCart">You have no items in your cart!</string>
+  <string name="customerSelectDeactivate">Select an account to deactivate:</string>
+
+  <string name="customerRestoreTitle">Items in restored cart:</string>
+  <string name="customerEmptyRestore">No items in restored cart!</string>
+
+  <string name="customerNoAccounts">No accounts available to deactivate!</string>
+  <string name="customerDeactivatePopup">Account deactivated!
+    Click the popup to go back or click the screen to deactivate another account."</string>
+  <string name="submit">Submit</string>
+
+  <string name="newUserTitle">Make New Account</string>
+  <string name="customerId">Enter Customer Id:</string>
+  <string name="invalidLogin">User Id or password are invalid. Please click to close message
+    and try again.</string>
+  <string name="validAuth">Employee is authenticated. Click screen
+    to close message.</string>
+  <string name="invalidCustomer">"Invalid customer ID; please try again. Click screen
+    to close message."</string>
+  <string name="restockSuccess">"Item restocked! Click screen to close message."</string>
+  <string name="newUserText">"New user made! Click screen to close message."</string>
+  <string name="validIntText">"Please enter integer value.
+    Click screen to close message."</string>
+
+  <!-- Strings related to login -->
+  <string name="prompt_email">Email</string>
+  <string name="prompt_userId">UserId</string>
+  <string name="prompt_password">Password</string>
+  <string name="action_sign_in">Sign in</string>
+  <string name="action_sign_in_short">Sign in</string>
+  <string name="welcome">"Welcome !"</string>
+  <string name="invalid_username">Not a valid username</string>
+  <string name="invalid_password">Password must be >5 characters</string>
+  <string name="login_failed">"Login failed"</string>
+
+  <string name="btn_initdb">Initialize DB</string>
+  <string name="btn_serializeDb">Serialize DB</string>
+  <string name="DeserializeDB">De-serialize DB</string>
+  <string name="Done">Done</string>
+  <string name="ImportDB">Import Serialized DB</string>
+  <string name="btnRegisterAccount">Register for an account</string>
+  <string name="btnShopWoAccount">Shop without an account</string>
+  <string name="btnExistingAccount">Choose an existing account</string>
+  <string name="btnDeactivateAccount">Deactivate an account</string>
+  <string name="chooseAnAccount">Please choose an account to load:</string>
+
+  <string name="select">Select</string>
+  <string name="viewAcctsTitle">View Customer Accounts</string>
+  <string name="customerAccountsTitle">Customer Accounts</string>
+  <string name="activeAccounts">Active Accounts:</string>
+  <string name="inactiveAccounts">Inactive Accounts:</string>
+
+</resources>

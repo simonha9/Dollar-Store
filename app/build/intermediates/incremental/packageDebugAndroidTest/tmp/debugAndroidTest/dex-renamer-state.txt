@@ -1,0 +1,7 @@
+#Mon Dec 02 11:42:39 EST 2019
+base.0=D\:\\Fall_2019\\CSCB07\\E1\\hasimon\\group_proj\\project_phase3\\SalesApplication\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeExtDexDebugAndroidTest\\out\\classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=D\:\\Fall_2019\\CSCB07\\E1\\hasimon\\group_proj\\project_phase3\\SalesApplication\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\out\\classes.dex

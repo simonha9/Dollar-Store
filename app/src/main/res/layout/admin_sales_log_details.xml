@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@color/colorBackground">
+
+  <TextView
+    android:id="@+id/detailedSalesLogTitle"
+    style="@style/layoutTitle"
+    android:text="@string/detailedSalesLogTitle" />
+
+  <TextView
+    android:id="@+id/detailedCustomerName"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/detailedSalesLogTitle"
+    android:paddingStart="@dimen/fab_margin"
+    android:paddingEnd="@dimen/fab_margin"
+    android:textColor="#000000"
+    android:textSize="16sp" />
+
+  <TextView
+    android:id="@+id/detailedSaleId"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/detailedCustomerName"
+    android:paddingStart="@dimen/fab_margin"
+    android:paddingEnd="@dimen/fab_margin"
+    android:textColor="#000000"
+    android:textSize="16sp" />
+
+  <TextView
+    android:id="@+id/detailedTotalPrice"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/detailedSaleId"
+    android:paddingStart="@dimen/fab_margin"
+    android:paddingEnd="@dimen/fab_margin"
+    android:textColor="#000000"
+    android:textSize="16sp" />
+
+  <TextView
+    android:id="@+id/detailedItemizedBreakdown"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/detailedTotalPrice"
+    android:paddingStart="@dimen/fab_margin"
+    android:paddingEnd="@dimen/fab_margin"
+    android:text="@string/detailedItemizedBreakdown"
+    android:textColor="#000000"
+    android:textSize="18sp" />
+
+  <ListView
+    android:id="@+id/detailedItemBreakdown"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/detailedItemizedBreakdown"
+    android:divider="@null" />
+
+</RelativeLayout>

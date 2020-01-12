@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@color/colorBackground">
+
+  <TextView
+    android:id="@+id/totalSalesBreakdown"
+    style="@style/layoutTitle"
+    android:text="@string/totalSalesBreakdown" />
+
+  <TextView
+    android:id="@+id/totalItemizedBreakdown"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/totalSalesBreakdown"
+    android:paddingStart="@dimen/fab_margin"
+    android:paddingEnd="@dimen/fab_margin"
+    android:text="@string/detailedItemizedBreakdown"
+    android:textColor="#000000"
+    android:textSize="18sp" />
+
+  <ListView
+    android:id="@+id/lstTotalBreakdown"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/totalItemizedBreakdown"
+    android:divider="@null" />
+
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@color/colorBackground"
+  android:orientation="vertical">
+
+  <TextView
+    android:id="@+id/priceCart"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dp"
+    android:fontFamily="sans-serif-condensed-medium"
+    android:padding="20sp"
+    android:text="@string/customerPriceTitle"
+    android:textSize="25sp" />
+
+  <Button
+    android:id="@+id/payButton"
+    android:layout_width="100dp"
+    android:layout_height="50dp"
+    android:layout_marginLeft="150dp"
+    android:layout_marginTop="110dp"
+    android:background="@color/colorAccent"
+    android:text="@string/customerPay"
+    android:textAlignment="center"
+    android:textColor="@color/colorWhite"
+    android:textSize="20sp" />
+
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="170dp"
+    android:fontFamily="sans-serif-condensed-medium"
+    android:padding="20sp"
+    android:text="@string/customerContinue"
+    android:textSize="25sp" />
+
+  <Button
+    android:id="@+id/yesButton"
+    android:layout_width="70dp"
+    android:layout_height="50dp"
+    android:layout_marginTop="250dp"
+    android:layout_marginLeft="100dp"
+    android:background="@color/colorGreen"
+    android:text="@string/customerYes"
+    android:textAlignment="center"
+    android:textColor="@color/colorWhite"
+    android:textSize="20sp" />
+
+  <Button
+    android:id="@+id/noButton"
+    android:layout_width="70dp"
+    android:layout_height="50dp"
+    android:layout_marginTop="250dp"
+    android:layout_marginLeft="240dp"
+    android:background="@color/colorRed"
+    android:text="@string/customerNo"
+    android:textAlignment="center"
+    android:textColor="@color/colorWhite"
+    android:textSize="20sp" />
+
+</RelativeLayout>

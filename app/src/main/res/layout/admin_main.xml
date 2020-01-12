@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@color/colorBackground"
+  android:orientation="vertical">
+
+  <include layout="@layout/exit_button" />
+
+  <TextView
+    android:id="@+id/txtAdminWelcome"
+    style="@style/layoutTitle"
+    android:text="@string/adminTitle" />
+
+  <RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true">
+
+    <Button
+      android:id="@+id/buttonPromote"
+      style="@style/buttonStyle"
+      android:text="@string/adminPromote" />
+
+    <Button
+      android:id="@+id/buttonSales"
+      style="@style/buttonStyle"
+      android:layout_below="@+id/buttonPromote"
+      android:text="@string/adminSales" />
+
+    <Button
+      android:id="@+id/buttonAccounts"
+      style="@style/buttonStyle"
+      android:layout_below="@id/buttonSales"
+      android:text="@string/viewAccounts" />
+
+    <Button
+      android:id="@+id/buttonDatabase"
+      style="@style/buttonStyle"
+      android:layout_below="@+id/buttonAccounts"
+      android:text="@string/manageDatabase" />
+
+  </RelativeLayout>
+
+
+</RelativeLayout>

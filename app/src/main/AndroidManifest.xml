@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  package="com.b07.salesapplication">
+
+  <application
+    android:allowBackup="true"
+    android:icon="@mipmap/ic_launcher"
+    android:label="Shopping Application"
+    android:supportsRtl="true"
+    android:theme="@style/AppTheme"
+    tools:ignore="GoogleAppIndexingWarning">
+
+    <!--    Initialize Activities    -->
+    <activity android:name="com.b07.ui.db.DbActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+
+    <!--    Login Activities    -->
+    <activity android:name="com.b07.ui.login.LoginActivity" />
+    <activity android:name="com.b07.ui.login.LogoutActivity" />
+
+    <!--    Admin Activities    -->
+    <activity android:name="com.b07.ui.admin.AdminMainActivity" />
+    <activity
+      android:name="com.b07.ui.admin.SalesLogActivity"
+      android:parentActivityName="com.b07.ui.admin.AdminMainActivity" />
+    <activity
+      android:name="com.b07.ui.admin.SalesLogDetailActivity"
+      android:parentActivityName="com.b07.ui.admin.SalesLogActivity" />
+    <activity
+      android:name="com.b07.ui.admin.SalesLogTotalActivity"
+      android:parentActivityName="com.b07.ui.admin.SalesLogActivity" />
+    <activity
+      android:name="com.b07.ui.admin.AdminPromoteActivity"
+      android:parentActivityName="com.b07.ui.admin.AdminMainActivity" />
+    <activity
+      android:name="com.b07.ui.admin.AdminDatabaseActivity"
+      android:parentActivityName="com.b07.ui.admin.AdminMainActivity" />
+    <activity
+      android:name="com.b07.ui.admin.AdminViewAcctsActivity"
+      android:parentActivityName="com.b07.ui.admin.AdminMainActivity" />
+    <activity
+      android:name="com.b07.ui.admin.AdminListAcctsActivity"
+      android:parentActivityName="com.b07.ui.admin.AdminViewAcctsActivity" />
+
+    <!--    Employee Activities    -->
+    <activity android:name="com.b07.ui.employee.EmployeeActivity" />
+    <activity
+      android:name="com.b07.ui.employee.EmpAuthActivity"
+      android:parentActivityName="com.b07.ui.employee.EmployeeActivity" />
+    <activity
+      android:name="com.b07.ui.employee.EmpNewAccountActivity"
+      android:parentActivityName="com.b07.ui.employee.EmployeeActivity" />
+    <activity
+      android:name="com.b07.ui.employee.EmpRestockActivity"
+      android:parentActivityName="com.b07.ui.employee.EmployeeActivity" />
+    <activity
+      android:name="com.b07.ui.employee.AccountActivity"
+      android:parentActivityName="com.b07.ui.employee.EmployeeActivity" />
+    <activity
+      android:name="com.b07.ui.employee.EmpNewUserActivity"
+      android:parentActivityName="com.b07.ui.employee.EmployeeActivity" />
+
+    <!--    Customer Activities    -->
+    <activity android:name="com.b07.ui.customer.CustomerAcctMenuActivity" />
+    <activity android:name="com.b07.ui.customer.CustomerMainActivity" />
+    <activity
+      android:name="com.b07.ui.customer.CustomerNewAccount"
+      android:parentActivityName="com.b07.ui.customer.CustomerAcctMenuActivity" />
+    <activity
+      android:name="com.b07.ui.customer.CustomerExistingAcctActivity"
+      android:parentActivityName="com.b07.ui.customer.CustomerAcctMenuActivity" />
+    <activity
+      android:name="com.b07.ui.customer.CustomerRestoreActivity"
+      android:parentActivityName="com.b07.ui.customer.CustomerMainActivity" />
+    <activity
+      android:name="com.b07.ui.customer.CustomerDeactivateActivity"
+      android:parentActivityName="com.b07.ui.customer.CustomerMainActivity" />
+    <activity
+      android:name="com.b07.ui.customer.CustomerListItemActivity"
+      android:parentActivityName="com.b07.ui.customer.CustomerMainActivity" />
+    <activity
+      android:name="com.b07.ui.customer.CustomerCheckoutActivity"
+      android:parentActivityName="com.b07.ui.customer.CustomerMainActivity" />
+    <activity
+      android:name="com.b07.ui.customer.CustomerPriceActivity"
+      android:parentActivityName="com.b07.ui.customer.CustomerMainActivity" />
+    <activity
+      android:name="com.b07.ui.customer.CustomerAccountActivity"
+      android:parentActivityName="com.b07.ui.customer.CustomerMainActivity" />
+    <activity
+      android:name="com.b07.ui.customer.CustomerRemoveActivity"
+      android:parentActivityName="com.b07.ui.customer.CustomerMainActivity" />
+    <activity
+      android:name="com.b07.ui.customer.CustomerAddActivity"
+      android:parentActivityName="com.b07.ui.customer.CustomerMainActivity" />
+
+  </application>
+
+</manifest>
