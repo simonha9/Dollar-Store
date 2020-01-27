@@ -4,9 +4,9 @@ README
 
 User Credentials
 
-UserId    Username    Password
-1         admin       admin
-2         simon       simon
+UserId    Username    Password  Role
+1         admin       admin     admin
+2         simon       simon     employee
 
 
 Serialized File location
