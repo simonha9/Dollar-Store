@@ -1,6 +1,7 @@
-# README
+# Sales Application
 
-******* This text file gives you initial user credentials + where the database serialized file is stored for download/upload *******
+This text file gives you initial user credentials + where the database serialized file is stored for download/upload.
+Program can be run on Android Emulator or on Android device.
 
 User Credentials
 
